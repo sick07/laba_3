@@ -53,6 +53,9 @@ int main()
 	capital.getname();
 	capital.setcapital("Minsk");
 	capital.getcapital();
+	state::nested number_of_people;
+	number_of_people.setnumber_of_people("10 000 000 people");
+	number_of_people.getnumber_of_people();
 
 	cout << endl;
 
